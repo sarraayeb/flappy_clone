@@ -43,7 +43,7 @@ var mainState = {
 
         // Rotate the bird 
         if (this.bird.angle < 20)
-            		this.bird.angle += 1;   
+        this.bird.angle += 1;   
     },
 
     jump: function() {
